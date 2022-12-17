@@ -95,3 +95,72 @@
         margin-top: 1mm !important;
         font-size: 0 !important;}
 }
+@media (max-width: 700px) {
+    .img-n{
+        height: 20mm;
+        position: absolute;
+        top:0;
+        left: 22mm;
+    }
+    .tit{
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+    }
+    .n{
+        height: 10mm;
+        top: 0;
+        right: 0;
+        padding-left: 50px;
+        font-size: 10mm;
+    }
+    .menu-nav{
+        top: 4.5mm;
+        left:10mm;
+        font-size: 9mm;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 100
+
+    }
+    .s-n{
+        z-index: 1 !important;
+        position: absolute;
+        right: 10mm;
+        top: 15px
+    }
+    .m-o-nv{
+        z-index: 1;
+        position: absolute;
+        top: 9px;;
+        left: 15px;
+    }
+    .button1{
+        background:rgba(0, 0, 0, 0) !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+        margin-top: 0 !important;
+        font-size: 0 !important;}
+
+    .button2{
+        background:rgba(0, 0, 0, 0) !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+        margin-top: 0 !important;
+        font-size: 0 !important;}
+    .dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .dw-b{
+        background:rgba(0, 0, 0, 0) !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+        margin-top: 1mm !important;
+        font-size: 0 !important;}
+    .dw-b:hover{
+        background:rgba(0, 0, 0, 1) !important;
+        border-color: rgba(0, 0, 0, 1) !important;
+        margin-top: 1mm !important;
+        font-size: 0 !important;}
+}
