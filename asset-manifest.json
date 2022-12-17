@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/franco-ultimo-final-definitivo-terminado/static/css/main.44a8c40c.css",
+    "main.js": "/franco-ultimo-final-definitivo-terminado/static/js/main.32b78e09.js",
+    "static/js/787.28cb0dcd.chunk.js": "/franco-ultimo-final-definitivo-terminado/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img.png": "/franco-ultimo-final-definitivo-terminado/static/media/img.9274d3db30aefd9bfac4.png",
+    "index.html": "/franco-ultimo-final-definitivo-terminado/index.html",
+    "main.44a8c40c.css.map": "/franco-ultimo-final-definitivo-terminado/static/css/main.44a8c40c.css.map",
+    "main.32b78e09.js.map": "/franco-ultimo-final-definitivo-terminado/static/js/main.32b78e09.js.map",
+    "787.28cb0dcd.chunk.js.map": "/franco-ultimo-final-definitivo-terminado/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44a8c40c.css",
+    "static/js/main.32b78e09.js"
+  ]
+}
