@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/franco-ultimo-final-definitivo-terminado/static/css/main.f80eb49e.css",
-    "main.js": "/franco-ultimo-final-definitivo-terminado/static/js/main.f64233e8.js",
+    "main.css": "/franco-ultimo-final-definitivo-terminado/static/css/main.b9248479.css",
+    "main.js": "/franco-ultimo-final-definitivo-terminado/static/js/main.bf420c9d.js",
     "static/js/787.28cb0dcd.chunk.js": "/franco-ultimo-final-definitivo-terminado/static/js/787.28cb0dcd.chunk.js",
-    "static/media/img.png": "/franco-ultimo-final-definitivo-terminado/static/media/img.9274d3db30aefd9bfac4.png",
+    "static/media/img.png": "/franco-ultimo-final-definitivo-terminado/static/media/img.500ce186316befc91a45.png",
     "index.html": "/franco-ultimo-final-definitivo-terminado/index.html",
-    "main.f80eb49e.css.map": "/franco-ultimo-final-definitivo-terminado/static/css/main.f80eb49e.css.map",
-    "main.f64233e8.js.map": "/franco-ultimo-final-definitivo-terminado/static/js/main.f64233e8.js.map",
+    "main.b9248479.css.map": "/franco-ultimo-final-definitivo-terminado/static/css/main.b9248479.css.map",
+    "main.bf420c9d.js.map": "/franco-ultimo-final-definitivo-terminado/static/js/main.bf420c9d.js.map",
     "787.28cb0dcd.chunk.js.map": "/franco-ultimo-final-definitivo-terminado/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f80eb49e.css",
-    "static/js/main.f64233e8.js"
+    "static/css/main.b9248479.css",
+    "static/js/main.bf420c9d.js"
   ]
 }
