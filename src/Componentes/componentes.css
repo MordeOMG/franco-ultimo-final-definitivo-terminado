@@ -13,9 +13,10 @@
 .txt-n{
     padding-left: 10mm;
 }
-.s{
+.s-n{
      max-width: 40mm;
      width: 40mm;
+     margin-left: 10mm;
 }
 .n{
     height: 10mm;
