@@ -1,6 +1,7 @@
 .nav-bar{
     display: flex;
     height: 18mm;
+    width: 100%;
 }
 .d-flex{
     padding: 0;
@@ -13,9 +14,9 @@
     padding-left: 10mm;
 }
 .s{
-     max-width: 40mm;;
+     max-width: 40mm;
+     width: 40mm;
 }
-
 .n{
     height: 10mm;
     right: 0;
@@ -24,4 +25,49 @@
 .button1{
     margin-right: 5mm;
     width: 40mm;
+}
+.menu-nav{
+    font-size: 0 ;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 100
+
+    }
+
+@media (max-width: 1250px) {
+    .img-n{
+        height: 20mm;
+        position: absolute;
+        top:0;
+        left: 22mm;
+    }
+    .tit{
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+    }
+    .n{
+        height: 10mm;
+        top: 0;
+        right: 0;
+        padding-left: 50px;
+        font-size: 10mm;
+    }
+    .menu-nav{
+        position: absolute;
+        top: 4.5mm;
+        left:10mm;
+        font-size: 9mm;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 100
+
+    }
+    .s-n{
+        z-index: 1 !important;
+    }
 }
