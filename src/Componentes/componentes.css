@@ -36,6 +36,9 @@
     'opsz' 100
 
     }
+    .m-o-nv{
+        z-index: -1;
+    }
 
 @media (max-width: 1250px) {
     .img-n{
@@ -57,7 +60,6 @@
         font-size: 10mm;
     }
     .menu-nav{
-        position: absolute;
         top: 4.5mm;
         left:10mm;
         font-size: 9mm;
@@ -71,4 +73,25 @@
     .s-n{
         z-index: 1 !important;
     }
+    .m-o-nv{
+        z-index: 1;
+        position: absolute;
+        top: 9px;;
+        left: 15px;
+    }
+    .dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .dw-b{
+        background:rgba(0, 0, 0, 0) !important;
+        border-color: rgba(0, 0, 0, 0) !important;
+        margin-top: 1mm !important;
+        font-size: 0 !important;}
+    .dw-b:hover{
+        background:rgba(0, 0, 0, 1) !important;
+        border-color: rgba(0, 0, 0, 1) !important;
+        margin-top: 1mm !important;
+        font-size: 0 !important;}
 }

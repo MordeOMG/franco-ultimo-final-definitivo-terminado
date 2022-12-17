@@ -1,13 +1,39 @@
 import React from 'react'
 import './componentes.css'
 import Img from'../Recursos/img.png'
+import { Dropdown } from 'react-bootstrap'
+import DropdownToggle from 'react-bootstrap/esm/DropdownToggle'
+import DropdownMenu from 'react-bootstrap/esm/DropdownMenu'
+import DropdownItem from 'react-bootstrap/esm/DropdownItem'
+
 
 function navbar() {
   return (
     <div>
       <div className='nav-bar container-fluid align-items-center d-flex justify-content-center flex-wrap text-bg-dark'>
         <div class="m-o-nv">
-        <span class="menu-nav material-symbols-outlined">menu</span>
+        <Dropdown>
+          <DropdownToggle className="dw-b ">
+          <span class="material-symbols-outlined">menu</span>
+          </DropdownToggle>
+          <DropdownMenu>
+            <DropdownItem>
+            <a href="#!" className='txt-na text-secondary text-decoration-none'>Home</a>
+            </DropdownItem>
+            <DropdownItem>
+            <a href="#!" className='txt-na text-secondary text-decoration-none'>Nosotros</a>
+            </DropdownItem>
+            <DropdownItem>
+            <a href="#!" className='txt-na text-secondary text-decoration-none'>Nuestros Clientes</a>
+            </DropdownItem>
+            <DropdownItem>
+            <a href="#!" className='txt-na text-secondary text-decoration-none'>Documentación</a>
+            </DropdownItem>
+            <DropdownItem>
+            <a href="#!" className='txt-na text-secondary text-decoration-none'>HomeContactanos</a>
+            </DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
         </div>
         <div className='d-flex tit align-items-center'>
         <a href="#!">
