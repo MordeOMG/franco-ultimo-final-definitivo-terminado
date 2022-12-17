@@ -1,0 +1,27 @@
+.nav-bar{
+    display: flex;
+    height: 18mm;
+}
+.d-flex{
+    padding: 0;
+    margin: 0;
+}
+.img-n{
+    height: 20mm;
+}
+.txt-n{
+    padding-left: 10mm;
+}
+.s{
+     max-width: 40mm;;
+}
+
+.n{
+    height: 10mm;
+    right: 0;
+    padding-left: 50px;
+}
+.button1{
+    margin-right: 5mm;
+    width: 40mm;
+}
