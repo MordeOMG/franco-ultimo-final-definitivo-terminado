@@ -1,8 +1,8 @@
 import React from 'react'
 import Card from './card'
-import Img1 from '../Cartas/Recursos/img1.png'
-import Img2 from '../Cartas/Recursos/img2.png'
-import Img3 from '../Cartas/Recursos/img2.png'
+import Img1 from '../Cartas/Recursos/img5.png'
+import Img2 from '../Cartas/Recursos/img3.png'
+import Img3 from '../Cartas/Recursos/img7.png'
 import Img4 from '../Cartas/Recursos/img4.png'
 
 
