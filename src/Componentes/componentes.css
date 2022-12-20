@@ -44,6 +44,15 @@
     }
 
 @media (max-width: 1250px) {
+    .dropdown-menu{
+        width: 1250px !important;
+        margin-top: 15px !important;
+        margin-left: -15px !important;
+    }
+    .txt-na{
+        width: 500vh;
+
+}
     .img-n{
         height: 12mm;
         position: absolute;
@@ -97,8 +106,18 @@
         border-color: rgba(0, 0, 0, 1) !important;
         margin-top: 1mm !important;
         font-size: 0 !important;}
+
+        .button1{
+            margin-right: 5mm;
+            width: 32mm;
+        }
+
+        .button2{
+            margin-right: 5mm;
+            width: 32mm;
+        }
 }
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .img-n{
         height: 12mm;
         position: absolute;

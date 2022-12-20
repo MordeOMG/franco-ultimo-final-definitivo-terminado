@@ -16,7 +16,7 @@ function navbar() {
           <DropdownToggle className="dw-b ">
           <span class="material-symbols-outlined">menu</span>
           </DropdownToggle>
-          <DropdownMenu>
+          <DropdownMenu className='dropdown-menu'>
             <DropdownItem>
             <a href="#!" className='txt-na text-secondary text-decoration-none'>Home</a>
             </DropdownItem>
@@ -30,7 +30,7 @@ function navbar() {
             <a href="#!" className='txt-na text-secondary text-decoration-none'>Documentación</a>
             </DropdownItem>
             <DropdownItem>
-            <a href="#!" className='txt-na text-secondary text-decoration-none'>HomeContactanos</a>
+            <a href="#!" className='txt-na text-secondary text-decoration-none'>Contactanos</a>
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
