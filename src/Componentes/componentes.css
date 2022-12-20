@@ -3,6 +3,9 @@
     height: 18mm;
     width: 100%;
 }
+.txt-n{
+    padding: 21px 12px !important;
+}
 .d-flex{
     padding: 0;
     margin: 0;
@@ -15,6 +18,7 @@
 }
 .txt-n{
     padding-left: 10mm;
+    border: 0 !important;
 }
 .s-n{
      max-width: 40mm;
@@ -53,6 +57,11 @@
         width: 500vh;
 
 }
+    .txt-n{
+        font-size: 0 !important;
+        z-index: -1 !important;
+        position: absolute !important;
+    }
     .img-n{
         height: 12mm;
         position: absolute;
@@ -185,4 +194,10 @@
         border-color: rgba(0, 0, 0, 1) !important;
         margin-top: 1mm !important;
         font-size: 0 !important;}
+    .txt-n{
+        font-size: 0 !important;
+        z-index: -1 !important;
+        position: absolute !important;
+        padding: 0 50px !important;
+    }
 }

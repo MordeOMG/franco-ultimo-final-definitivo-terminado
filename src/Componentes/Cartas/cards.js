@@ -24,6 +24,60 @@ const tarjetas = [
         title: 'Redes Sociales',
         image: Img3,
         url: 'https://www.instagram.com/'
+    },
+    {
+        id: 1,
+        title: 'Fast Web',
+        image: Img1,
+        url: 'https://www.estudiojuridicocordoba.com/'
+    },
+    {
+        id: 2,
+        title: 'Estudio Tal',
+        image: Img2,
+        url: 'https://www.estudiojuridicocordoba.com/'
+    },
+    {
+        id: 2,
+        title: 'Redes Sociales',
+        image: Img3,
+        url: 'https://www.instagram.com/'
+    },
+    {
+        id: 1,
+        title: 'Fast Web',
+        image: Img1,
+        url: 'https://www.estudiojuridicocordoba.com/'
+    },
+    {
+        id: 2,
+        title: 'Estudio Tal',
+        image: Img2,
+        url: 'https://www.estudiojuridicocordoba.com/'
+    },
+    {
+        id: 2,
+        title: 'Redes Sociales',
+        image: Img3,
+        url: 'https://www.instagram.com/'
+    },
+    {
+        id: 1,
+        title: 'Fast Web',
+        image: Img1,
+        url: 'https://www.estudiojuridicocordoba.com/'
+    },
+    {
+        id: 2,
+        title: 'Estudio Tal',
+        image: Img2,
+        url: 'https://www.estudiojuridicocordoba.com/'
+    },
+    {
+        id: 2,
+        title: 'Redes Sociales',
+        image: Img3,
+        url: 'https://www.instagram.com/'
     }
 ]
 
