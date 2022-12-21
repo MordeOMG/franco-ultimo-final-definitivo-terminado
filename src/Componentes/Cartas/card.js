@@ -11,7 +11,7 @@ function card({title, img, url, text}) {
         <h4 className='card-title'>{title}</h4>
         <p className='card-text text-secondary'>
           {
-            text ? text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting.'
+            text ? text: 'Error, el texto no se ah cargado correctamente.'
           }
         </p>
         <a href={url} target='_blank' rel="noreferrer" className='btn btn-outline-secondary border-rounded-0' >Ir al sitio web</a>      

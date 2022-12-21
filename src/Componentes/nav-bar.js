@@ -37,22 +37,23 @@ function navbar() {
         </div>
         <div className='d-flex tit align-items-center'>
         <img src={Img} className="img-n"></img>
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-          <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio1" autocomplete="off" />
-          <label class="txt-n text-light btn btn-outline-primary" for="btnradio1">Home</label>
+        <form name='botones' class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        
+        <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio1" autocomplete="off" value="1"/>
+        <label class="txt-n text-light btn btn-outline-primary" for="btnradio1" >Home</label>
 
-          <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio2" autocomplete="off"/>
-          <label className="txt-n text-light btn btn-outline-primary" for="btnradio2">Nosotros</label>
+        <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio2" autocomplete="off" value="2"/>
+        <label className="txt-n text-light btn btn-outline-primary" for="btnradio2">Nosotros</label>
 
-          <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio3" autocomplete="off"/>
-          <label class="txt-n text-light btn btn-outline-primary" for="btnradio3">Clientes</label>
+        <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio3" autocomplete="off" value="3"/>
+        <label class="txt-n text-light btn btn-outline-primary" for="btnradio3">Clientes</label>
 
-          <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio4" autocomplete="off"/>
-          <label class="txt-n text-light btn btn-outline-primary" for="btnradio4">Documentación</label>
+        <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio4" autocomplete="off" value="4"/>
+        <label class="txt-n text-light btn btn-outline-primary" for="btnradio4">Documentación</label>
 
-          <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio5" autocomplete="off"/>
-          <label class="txt-n text-light btn btn-outline-primary" for="btnradio5">Contacto</label>
-        </div>
+        <input type="radio" class="txt-n btn-check" name="btnradio" id="btnradio5" autocomplete="off" value="5"/>
+        <label class="txt-n text-light btn btn-outline-primary" for="btnradio5">Contacto</label>
+    </form>
         </div>
         <div className='int d-flex alig-items-center'>
             <input className="s-n form-control form-control-dark text-bg-dark" placeholder='Buscar'></input>
@@ -63,7 +64,7 @@ function navbar() {
         </div>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default navbar
