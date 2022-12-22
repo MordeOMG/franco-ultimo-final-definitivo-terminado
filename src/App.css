@@ -1,0 +1,49 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 2 !important;
+}
+.img-n{
+    height: 12mm !important;
+    position: absolute !important;
+    top:15px !important;
+    left: 6vh !important;
+}
+.indice{
+    margin-left: 20vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute !important;
+}
+.txt-n{
+    border: 0 !important;
+    border-radius: 0% !important;
+    height: 100%;
+    display: flex !important;
+    align-items: center !important;
+    margin-left: 4mm;
+    
+}
+.button1{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    width: 40px !important;
+    background-color: rgba(0,0,0,0) !important;
+    border: 0 !important;
+}
+.s-n{
+    width: 150px !important;
+    margin-right: 50px !important;
+}
+.botones{
+    position: absolute;
+    right: 10vh;
+}
+.routes{
+    padding-top: 100px !important;
+}
